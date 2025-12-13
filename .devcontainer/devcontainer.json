@@ -1,0 +1,19 @@
+{
+  "name": "Python + uv",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "features": {},
+
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh && uv sync",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",          // Ruff linter/formatter
+        "ms-python.black-formatter"   // or black if you prefer
+      ]
+    }
+  }
+}
