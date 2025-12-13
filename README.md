@@ -1,5 +1,5 @@
 # Running inside Github Codespaces
-
+[](https://www.freecodecamp.org/news/run-python-gui-in-github-codespaces/)
 1. run the start_gui.sh
 2. set port 6080 to public
 3. keep the script running
